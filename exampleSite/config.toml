@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://matthekim.github.io/aether"
 title = "Hugo Themes - aether"
 author = "Joe Hutchinson"
 canonifyurls = true
@@ -14,3 +14,15 @@ themesDir = "../../"
 [markup]
   [markup.highlight]
     style = "igor"
+
+    DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "My New Hugo i18n Site"
+    languageName = "English"
+    weight = 1
+  [languages.gr]
+    title = "Η Νεα μου Ιστιοσελιδα"
+    languageName = "Greek"
+    weight = 2
+defaultContentLanguageInSubdir = true
